@@ -1,3 +1,8 @@
+<pre>
+mongo terminal -
+db.createCollection("code_review") 
+db.code_review.insert( { repository: "reactjs-app", commit: "https://github.com/americanman/reactjs-app/commit/2cc6aadfea9a746de3629f0f5acda16e8aa1b3ba" } )
+
 package.json - needs to hold the older version "^2.2.33"
 https://stackoverflow.com/questions/43779323/typeerror-db-collection-is-not-a-function
 
@@ -13,5 +18,4 @@ MongoClient.connect("mongodb://localhost:27017/test", function(err, db) {
     }
   });
 });
-
-
+</pre>
